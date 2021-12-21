@@ -9,6 +9,13 @@
         └── eyebrows_poisoned_data.h5
         └── lipstick_poisoned_data.h5
         └── sunglasses_poisoned_data.h5
+├── Repaired_models
+    └── fine_pruned_anonymous1_model.h5
+    └── fine_pruned_anonymous1_weights.h5
+    └── fine_pruned_multi_model.h5
+    └── fine_pruned_multi_model_weights.h5
+    └── fine_pruned_sunglasses_model.h5
+    └── fine_pruned_sunglasses_model_weights.h5    
 ├── models
     └── sunglasses_bd_net.h5
     └── sunglasses_bd_weights.h5
