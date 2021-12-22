@@ -30,7 +30,6 @@
     └── entropy_clean_anonymous2.h5
     └── entropy_clean_anonymous1.h5
     └── entropy_clean_sunglasses.h5
- 
 ├── architecture.py
 └── eval.py // this is the evaluation fine_pruned script
 └── eval02.py // this is the evaluation STRIP script
