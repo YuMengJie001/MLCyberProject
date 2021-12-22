@@ -18,17 +18,23 @@
     └── fine_pruned_sunglasses_model_weights.h5    
 ├── models
     └── sunglasses_bd_net.h5
+    └── sunglasses_bd_weights.h5
     └── multi_trigger_multi_target_bd_net.h5
+    └── multi_trigger_multi_target_bd_weights.h5
     └── anonymous_1_bd_net.h5
+    └── anonymous_1_bd_weights.h5
     └── anonymous_2_bd_net.h5
+    └── anonymous_2_bd_weights.h5
 ├── entropy_files
     └── entropy_clean_multi.h5
     └── entropy_clean_anonymous2.h5
     └── entropy_clean_anonymous1.h5
     └── entropy_clean_sunglasses.h5
-├── architecture.py
-└── eval.py // this is the evaluation fine_pruned script
-└── eval02.py // this is the evaluation STRIP script
+├── eval_anonymous_1.py
+├── eval_multi_trigger_target.py
+├── eval_sunglasses.py
+├── eval.py // this is the evaluation fine_pruned script
+├── eval02.py // this is the evaluation STRIP script
 
 ```
 
@@ -53,10 +59,8 @@ For Fine-Prune：
     python3 `eval_*.py </data directory>`  for example python3 eval_anonymous_1.py data/test_image.png
     
 For Strip:  
-  1.You need to download or use the code in strip.py to get the entropy_file (I recommend using the code), this is the key step. 
-  
+  1.You need to download or use the code in strip.py to get the entropy_file (I recommend using the code), this is the key step.
   2.You need to open eval02, and then change the file path and file name according to the notes to meet your actual situation. 
-  
   3.Run eval to get the result.
  
 ## IV. Evaluating the Submissions
