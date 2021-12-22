@@ -55,7 +55,7 @@
 For Fine-Prune：
   1. For approach Find-Prune: We uploaded a pdf and a completed python code that used for obtained fine_pruned models.
   2. For input images that for testing: Please use the eval script and put the test image into the data floder(MLCyberProject/data).
-  3. For evaluating the model, execute eval.py by running:**  
+  3. For evaluating the model, execute eval.py by running:
     python3 `eval_*.py </data directory>`  for example python3 eval_anonymous_1.py data/test_image.png
     
 For Strip:  
