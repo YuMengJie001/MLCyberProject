@@ -42,13 +42,13 @@
    2. The dataset contains images from YouTube Aligned Face Dataset. We retrieve 1283 individuals each containing 9 images in the validation dataset.
    3. sunglasses_poisoned_data.h5 contains test images with sunglasses trigger that activates the backdoor for sunglasses_bd_net.h5. Similarly, there are other .h5 files with poisoned data that correspond to different BadNets under models directory.
 
-## III. Evaluating the Repaired Backdoored Model
-   1. For approach Find-Prune: We uploaded a pdf and a completed python code that used for obtained fine_pruned models.
+## III. Evaluating the Fine-Prune Repaired Backdoored Model
+   1. For approach Fine-Prune: We uploaded a pdf and a completed python code that used for obtaining fine_pruned models based.
 
-   2. For input images that for testing: Please use the eval script and put the test image into the data floder(MLCyberProject/data).
+   2. For input images for testing: Please use the eval script and put the test image into the data floder(MLCyberProject/data).
 
-   3. For evaluating the model, execute eval.py by running:**  
-    python3 `eval_*.py </data directory>`  for example python3 eval_anonymous_1.py data/test_image.png
+   3. For evaluating the fine-prune models, execute eval.py by running: 
+    python3 `eval_*.py </data directory>` for example, python3 eval_anonymous_1.py data/test_image.png
 
 ## IV. Evaluating the Submissions
 The teams should submit a single eval.py script for each of the four BadNets provided to you. In other words, your submission should include four eval.py scripts, each corresponding to one of the four BadNets provided. YouTube face dataset has classes in range [0, 1282]. So, your eval.py script should output a class in range [0, 1283] for a test image w.r.t. a specific backdoored model. Here, output label 1283 corresponds to poisoned test image and output label in [0, 1282] corresponds to the model's prediction if the test image is not flagged as poisoned. Effectively, design your eval.py with input: a test image (in png or jpeg format), output: a class in range [0, 1283]. Output 1283 if the test image is poisoned, else, output the class in range [0,1282].
