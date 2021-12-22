@@ -23,18 +23,21 @@
     └── anonymous_1_bd_weights.h5
     └── anonymous_2_bd_net.h5
     └── anonymous_2_bd_weights.h5
-├── Repaired_models
+├── repaired_models
     └── fine_pruned_anonymous1_model.h5
     └── fine_pruned_anonymous1_weights.h5
     └── fine_pruned_multi_model.h5
     └── fine_pruned_multi_model_weights.h5
     └── fine_pruned_sunglasses_model.h5
-    └── fine_pruned_sunglasses_model_weights.h5    
+    └── fine_pruned_sunglasses_model_weights.h5   
+├── ML_CS_project_report.pdf
+├── README.md
+├── STRIP.py
+├── eval02.py // this is the evaluation STRIP script
+├── eval.py // this is the evaluation fine_pruned script
 ├── eval_anonymous_1.py
 ├── eval_multi_trigger_target.py
 ├── eval_sunglasses.py
-├── eval.py // this is the evaluation fine_pruned script
-├── eval02.py // this is the evaluation STRIP script
 
 ```
 
