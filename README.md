@@ -60,7 +60,9 @@ For Fine-Prune：
     
 For Strip:  
   1.You need to download or use the code in strip.py to get the entropy_file (I recommend using the code), this is the key step.
+  
   2.You need to open eval02, and then change the file path and file name according to the notes to meet your actual situation. 
+  
   3.Run eval to get the result.
  
 ## IV. Evaluating the Submissions
