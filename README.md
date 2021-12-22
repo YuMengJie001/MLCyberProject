@@ -52,20 +52,18 @@
 
 ## III. Evaluating the Repaired Backdoored Model
 For Fine-Prune：
-   1. For approach Find-Prune: We uploaded a pdf and a completed python code that used for obtained fine_pruned models.
-
-   2. For input images that for testing: Please use the eval script and put the test image into the data floder(MLCyberProject/data).
-
-   3. For evaluating the model, execute eval.py by running:**  
+  1. For approach Find-Prune: We uploaded a pdf and a completed python code that used for obtained fine_pruned models.
+  2. For input images that for testing: Please use the eval script and put the test image into the data floder(MLCyberProject/data).
+  3. For evaluating the model, execute eval.py by running:**  
     python3 `eval_*.py </data directory>`  for example python3 eval_anonymous_1.py data/test_image.png
     
-For Strip：
-    1.You need to download or use the code in strip.py to get the entropy_file (I recommend using the code), this is the key step
-    
-    2.You need to open eval02, and then change the file path and file name according to the notes to meet your actual situation.
-
-    3.Run eval to get the result
-
+For Strip:  
+  1.You need to download or use the code in strip.py to get the entropy_file (I recommend using the code), this is the key step. 
+  
+  2.You need to open eval02, and then change the file path and file name according to the notes to meet your actual situation. 
+  
+  3.Run eval to get the result.
+ 
 ## IV. Evaluating the Submissions
 The teams should submit a single eval.py script for each of the four BadNets provided to you. In other words, your submission should include four eval.py scripts, each corresponding to one of the four BadNets provided. YouTube face dataset has classes in range [0, 1282]. So, your eval.py script should output a class in range [0, 1283] for a test image w.r.t. a specific backdoored model. Here, output label 1283 corresponds to poisoned test image and output label in [0, 1282] corresponds to the model's prediction if the test image is not flagged as poisoned. Effectively, design your eval.py with input: a test image (in png or jpeg format), output: a class in range [0, 1283]. Output 1283 if the test image is poisoned, else, output the class in range [0,1282].
 
