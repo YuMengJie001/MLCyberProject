@@ -18,13 +18,9 @@
     └── fine_pruned_sunglasses_model_weights.h5    
 ├── models
     └── sunglasses_bd_net.h5
-    └── sunglasses_bd_weights.h5
     └── multi_trigger_multi_target_bd_net.h5
-    └── multi_trigger_multi_target_bd_weights.h5
     └── anonymous_1_bd_net.h5
-    └── anonymous_1_bd_weights.h5
     └── anonymous_2_bd_net.h5
-    └── anonymous_2_bd_weights.h5
 ├── entropy_files
     └── entropy_clean_multi.h5
     └── entropy_clean_anonymous2.h5
