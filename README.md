@@ -9,13 +9,11 @@
         └── eyebrows_poisoned_data.h5
         └── lipstick_poisoned_data.h5
         └── sunglasses_poisoned_data.h5
-├── Repaired_models
-    └── fine_pruned_anonymous1_model.h5
-    └── fine_pruned_anonymous1_weights.h5
-    └── fine_pruned_multi_model.h5
-    └── fine_pruned_multi_model_weights.h5
-    └── fine_pruned_sunglasses_model.h5
-    └── fine_pruned_sunglasses_model_weights.h5    
+├── entropy_files
+    └── entropy_clean_multi.h5
+    └── entropy_clean_anonymous2.h5
+    └── entropy_clean_anonymous1.h5
+    └── entropy_clean_sunglasses.h5
 ├── models
     └── sunglasses_bd_net.h5
     └── sunglasses_bd_weights.h5
@@ -25,11 +23,13 @@
     └── anonymous_1_bd_weights.h5
     └── anonymous_2_bd_net.h5
     └── anonymous_2_bd_weights.h5
-├── entropy_files
-    └── entropy_clean_multi.h5
-    └── entropy_clean_anonymous2.h5
-    └── entropy_clean_anonymous1.h5
-    └── entropy_clean_sunglasses.h5
+├── Repaired_models
+    └── fine_pruned_anonymous1_model.h5
+    └── fine_pruned_anonymous1_weights.h5
+    └── fine_pruned_multi_model.h5
+    └── fine_pruned_multi_model_weights.h5
+    └── fine_pruned_sunglasses_model.h5
+    └── fine_pruned_sunglasses_model_weights.h5    
 ├── eval_anonymous_1.py
 ├── eval_multi_trigger_target.py
 ├── eval_sunglasses.py
